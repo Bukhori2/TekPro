@@ -12,7 +12,12 @@ public class RestaurantMain {
         Restaurant.nextId();
 
         menu.tambahMenuMakanan("Chicken Steak", 45000, 30);
+        Restaurant.nextId();
 
+        System.out.println("Menu Makanan:");
         menu.tampilMenuMakanan();
+
+        menu.pesanMakanan("Pizza", 2);
+        menu.pesanMakanan("Spaghetti", 21);
     }
 }
