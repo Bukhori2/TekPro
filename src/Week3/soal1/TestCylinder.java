@@ -35,11 +35,22 @@ public class TestCylinder { // save as "TestCylinder.java"
 
         Cylinder c4 = new Cylinder(2.0, 10.0, "blue");
         System.out.println("Cylinder:"
-                + " radius=" + c3.getRadius()
-                + " height=" + c3.getHeight()
-                + " base area=" + c3.getArea()
-                + " volume=" + c3.getVolume()
+                + " radius=" + c4.getRadius()
+                + " height=" + c4.getHeight()
+                + " base area=" + c4.getArea() // udah di override, bukan base area di Circle tapi surface area di Cylinder
+                + " volume=" + c4.getVolume()
                 + " color=" + c4.getColor());
+
+        System.out.println("Testing:");
+        System.out.println("Surface Area=" + c1.getArea());
+        System.out.println("Volume=" + c1.getVolume());
+        System.out.println(c1);
+        System.out.println(c1.toString());
+
+        System.out.println(c2);
+        System.out.println(c3);
+        System.out.println(c4);
+
     }
 }
 
