@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TekPro:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TekPro_jar</output-path>
+    <root id="archive" name="TekPro.jar">
+      <element id="module-output" name="TekPro" />
+    </root>
+  </artifact>
+</component>
