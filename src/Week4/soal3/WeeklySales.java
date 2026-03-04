@@ -8,9 +8,8 @@ public class WeeklySales {
         int num = scan.nextInt();
         Salesperson[] salesStaff = new Salesperson[num];
             for (int i = 0; i < num; i++) {
-                System.out.println("Enter the first name of salesperson " + (i+1) + ": ");
+                System.out.println("Enter the name of salesperson " + (i+1) + ": ");
                 String firstName = scan.next();
-                System.out.println("Enter the last name of salesperson " + (i+1) + ": ");
                 String lastName = scan.next();
                 System.out.println("Enter the total sales for salesperson " + (i+1) + ": ");
                 int totalSales = scan.nextInt();
