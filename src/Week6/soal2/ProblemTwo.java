@@ -1,6 +1,5 @@
 package Week6.soal2;
 
-import Week6.soal2.Student;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

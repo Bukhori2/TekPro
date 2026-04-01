@@ -1,6 +1,5 @@
 package Week6.soal1;
 
-import Week6.soal1.Employee;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,10 +8,10 @@ public class ProblemOne {
     public static void main(String[] args) {
         ArrayList<Employee> list = new ArrayList<>();
 
-        list.add(new Employee("Alice", 50000));
-        list.add(new Employee("bob", 70000));
-        list.add(new Employee("rob", 40000));
-        list.add(new Employee("john", 10000));
+        list.add(new Employee("John", 50000));
+        list.add(new Employee("Rob", 70000));
+        list.add(new Employee("Bob", 40000));
+        list.add(new Employee("Alice", 10000));
 
         // Melakukan proses filtering/sorting menggunakan Stream API
         List<Employee> sortedEmp = list.stream() // Ubah list ke stream
@@ -27,4 +26,10 @@ public class ProblemOne {
     }
 }
 
-// Asumsikan class Employee sudah memiliki getter getName() dan getSalary()
+// Buatlah class Employee disertai dengan getter getName() dan getSalary(), termasuk attribute dan method lainnya jika diperlukan!
+
+//Output yang Diharapkan
+//Employee{name='Alice', salary=50000}
+//Employee{name='Bob', salary=70000}
+//Employee{name='John', salary=10000}
+//Employee{name='Rob', salary=40000}
