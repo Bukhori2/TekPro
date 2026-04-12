@@ -12,7 +12,7 @@ public class ProblemThree {
                 .sorted((a, b) -> Integer.compare(b, a))    // Urutkan descending
                 .skip(n - 1)                                            // Lewati 2 elemen pertama
                 .findFirst()                                              // Ambil elemen yang tersisa
-                .orElse(0)              ;                           // Nilai default jika tidak ada
+                .orElse(0)                ;                           // Nilai default jika tidak ada
 
         System.out.println("Elemen terbesar ke-3 adalah: " + ans);
     }
